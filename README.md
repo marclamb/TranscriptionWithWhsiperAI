@@ -52,7 +52,6 @@ A simple Python script that uses [OpenAI's Whisper](https://github.com/openai/wh
 
 Open **Command Prompt** and run:
 
-```bash
 ffmpeg -version
 
 You should see version info.
