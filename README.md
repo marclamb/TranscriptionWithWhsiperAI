@@ -54,7 +54,7 @@ Open **Command Prompt** and run: **ffmpeg -version**
 
 You should see version info.
 
-2. Install Whisper
+### 2. Install Whisper
 ➤ Install Python 3.8+
 Download: https://www.python.org/downloads/
 
@@ -63,7 +63,7 @@ Download: https://www.python.org/downloads/
 ## 🚀 Usage
 python whisper_gui_transcribe.py
 
-1. A popup will let you choose an audio file (.wav, .mp3, .m4a, etc.)
+1. A pop-up will let you choose an audio file (.wav, .mp3, .m4a, etc.)
 2. The script will transcribe it and save a .txt file in the same folder
 
 💡 Example
