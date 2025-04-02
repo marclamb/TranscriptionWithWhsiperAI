@@ -66,11 +66,9 @@ python whisper_gui_transcribe.py
 1. A pop-up will let you choose an audio file (.wav, .mp3, .m4a, etc.)
 2. The script will transcribe it and save a .txt file in the same folder
 
-💡 Example:
+💡 Example: Input File -> Output File
 
-Input File	 Output File
-
-Intro.wav	-> Intro.txt
+Intro.wav -> Intro.txt
 
 Meeting.mp3	-> Meeting.txt
 
