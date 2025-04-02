@@ -1,52 +1,98 @@
-# TranscriptionWithWhsiperAI
-Python script to take an audio file and transcribe it to a .txt file
+:
 
-**1. Download and Install FFmpeg**
-Whisper requires FFmpeg for audio processing. Here's how to install it:
+🎙️ TranscriptionWithWhisperAI
+A simple Python script that uses OpenAI's Whisper to transcribe audio files into .txt text files using a user-friendly file picker interface.
 
-Download FFmpeg:
+📦 Features
+GUI-based audio file selection
 
-Visit the official FFmpeg download page: https://www.ffmpeg.org/download.html?utm_source=chatgpt.com
+Transcribes audio to text using Whisper
 
-Under "Get packages & executable files," click on the Windows logo.
+Saves the result in the same folder as the input file
 
-You'll be directed to a page with Windows builds. Download the "ffmpeg-git-full.7z" version.
+FFmpeg dependency check with helpful error handling
 
-Extract FFmpeg:
+🛠️ Requirements
+Python 3.8+
 
-Use a tool like 7-Zip to extract the downloaded .7z file.
+OpenAI Whisper
 
-Choose a destination like C:\ffmpeg.
+FFmpeg
 
-Add FFmpeg to System PATH:
+Tkinter (usually preinstalled with Python)
 
-Open the Start Menu and search for "Environment Variables."
+🧩 Installation
+1. Install FFmpeg
+Whisper uses FFmpeg to process audio. Follow these steps to install it on Windows:
 
-Click on "Edit the system environment variables."
+➤ Download FFmpeg
+Visit: https://ffmpeg.org/download.html
 
-In the System Properties window, click on "Environment Variables."
+Click the Windows logo under "Get packages & executable files"
 
-Under "System Variables," find and select the Path variable, then click "Edit."
+Download the ffmpeg-git-full.7z build
 
-Click "New" and add the path to the bin folder inside your FFmpeg directory, e.g., C:\ffmpeg\bin.
+➤ Extract FFmpeg
+Use 7-Zip or another extraction tool
 
-Click "OK" to save the changes.
+Extract to a folder like: C:\ffmpeg
 
-Verify FFmpeg Installation:
+➤ Add FFmpeg to PATH
+Open the Start Menu → search "Environment Variables"
 
-Open Command Prompt and type ffmpeg -version.
+Click "Edit the system environment variables"
 
-If installed correctly, you'll see version information displayed.
+In System Properties, click "Environment Variables…"
 
-**2. Install Whisper**
-Whisper is OpenAI's speech recognition model. To install it:
+Under System Variables, select Path → click Edit
 
-Install Python:
+Click New → add:
 
-Ensure you have installed Python 3.8 or higher. You can download it from the official Python website.
+makefile
+Copy
+Edit
+C:\ffmpeg\bin
+Click OK on all dialogs
 
-Install Whisper:
+➤ Verify Installation
+Open Command Prompt and run:
 
-Open Command Prompt and run: pip install git+https://github.com/openai/whisper.git
+bash
+Copy
+Edit
+ffmpeg -version
+You should see version info printed to the terminal.
 
-**Finally, use the Python script to run the program and transcribe your auido files.**
+2. Install Whisper
+➤ Install Python
+Make sure Python 3.8+ is installed:
+https://www.python.org/downloads/
+
+➤ Install Whisper via pip
+bash
+Copy
+Edit
+pip install git+https://github.com/openai/whisper.git
+🚀 Usage
+Run the script:
+
+bash
+Copy
+Edit
+python whisper_gui_transcribe.py
+A file picker will appear. Select your audio file (.wav, .mp3, .m4a, etc.)
+
+The script will transcribe it and save a .txt file in the same folder.
+
+💡 Example
+Input File	Output File
+Intro.wav	Intro.txt
+Interview.m4a	Interview.txt
+📌 Notes
+If FFmpeg is not detected, the script will show a popup with installation instructions.
+
+Supported audio formats depend on your FFmpeg build (.mp3, .wav, .m4a, .webm, .flac, etc.)
+
+🧠 License
+This project uses the MIT License.
+
