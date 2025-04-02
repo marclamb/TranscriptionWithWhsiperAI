@@ -67,8 +67,11 @@ python whisper_gui_transcribe.py
 2. The script will transcribe it and save a .txt file in the same folder
 
 💡 Example:
+
 Input File	 Output File
+
 Intro.wav	-> Intro.txt
+
 Meeting.mp3	-> Meeting.txt
 
 ## 📌 Notes
