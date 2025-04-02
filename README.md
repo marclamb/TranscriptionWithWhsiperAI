@@ -50,9 +50,7 @@ A simple Python script that uses [OpenAI's Whisper](https://github.com/openai/wh
 
 #### ➤ Verify
 
-Open **Command Prompt** and run:
-
-ffmpeg -version
+Open **Command Prompt** and run: **ffmpeg -version**
 
 You should see version info.
 
