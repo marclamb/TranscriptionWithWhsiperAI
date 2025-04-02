@@ -1,5 +1,3 @@
-:
-
 🎙️ TranscriptionWithWhisperAI
 A simple Python script that uses OpenAI's Whisper to transcribe audio files into .txt text files using a user-friendly file picker interface.
 
