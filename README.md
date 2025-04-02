@@ -1,7 +1,7 @@
 # TranscriptionWithWhsiperAI
-Python script to take an audio file and transcribe it to a txt file
+Python script to take an audio file and transcribe it to a .txt file
 
-1. Download and Install FFmpeg
+**1. Download and Install FFmpeg**
 Whisper requires FFmpeg for audio processing. Here's how to install it:
 
 Download FFmpeg:
@@ -38,15 +38,15 @@ Open Command Prompt and type ffmpeg -version.
 
 If installed correctly, you'll see version information displayed.
 
-2. Install Whisper
+**2. Install Whisper**
 Whisper is OpenAI's speech recognition model. To install it:
 
 Install Python:
 
-Ensure you have Python 3.8 or higher installed. You can download it from the official Python website.
+Ensure you have installed Python 3.8 or higher. You can download it from the official Python website.
 
 Install Whisper:
 
 Open Command Prompt and run: pip install git+https://github.com/openai/whisper.git
 
-Finally, use the Python script to run the program and transcribe your auido files.
+**Finally, use the Python script to run the program and transcribe your auido files.**
