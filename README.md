@@ -68,7 +68,9 @@ python whisper_gui_transcribe.py
 
 💡 Example
 Input File	 Output File
+
 Intro.wav	-> Intro.txt
+
 Meeting.mp3	-> Meeting.txt
 
 ## 📌 Notes
